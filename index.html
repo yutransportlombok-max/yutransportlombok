@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>YU Transport Lombok</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+
+<nav>
+
+<div class="logo">
+
+    <img src="assets/img/logo.png" alt="PT. Yuu Transport Lombok" class="logo-img">
+
+</div>
+
+<ul>
+
+<li><a href="#">Home</a></li>
+
+<li><a href="#armada">Armada</a></li>
+
+<li><a href="#">Tour</a></li>
+
+<li>
+    <a href="#airport">Airport Transfer</a>
+</li>
+
+<li><a href="#about">Tentang</a></li>
+
+<li><a href="#contact">Kontak</a></li>
+
+</ul>
+
+</nav>
+
+<!-- ================= HERO ================= -->
+
+<section class="hero">
+
+<div class="overlay"></div>
+
+<div class="hero-content">
+
+<div class="rating">
+⭐⭐⭐⭐⭐ Trusted by Hundreds of Customers
+</div>
+
+<h1>
+
+Jelajahi Lombok
+
+<span>Dengan YU Transport Lombok</span>
+
+</h1>
+
+<p>
+
+Rental Mobil • Lepas Kunci • Driver • Airport Transfer • Paket Wisata
+
+</p>
+
+<div class="hero-btn">
+
+    <a href="javascript:void(0)"
+       class="btn-book"
+       onclick="bookingHero()">
+       Booking WhatsApp
+    </a>
+
+    <a href="#armada" class="btn-armada">
+        Lihat Armada
+    </a>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= WHY US ================= -->
+
+<section class="why">
+
+<div class="container">
+
+<h2>Mengapa Memilih YU Transport Lombok?</h2>
+
+<p class="subtitle">
+Kami memberikan pengalaman rental mobil yang nyaman,
+aman, dan terpercaya selama Anda berada di Lombok.
+</p>
+
+<div class="why-grid">
+
+<div class="card">
+
+<div class="icon">
+<i class="fa-solid fa-car-side"></i>
+</div>
+
+<h3>Unit Bersih</h3>
+
+<p>
+Semua kendaraan selalu dibersihkan sebelum digunakan.
+</p>
+
+</div>
+
+<div class="card">
+
+<div class="icon">
+<i class="fa-solid fa-plane-departure"></i>
+</div>
+
+<h3>Airport Transfer</h3>
+
+<p>
+Penjemputan dan pengantaran langsung dari Bandara Lombok.
+</p>
+
+</div>
+
+<div class="card">
+
+<div class="icon">
+<i class="fa-solid fa-headset"></i>
+</div>
+
+<h3>Support 24 Jam</h3>
+
+<p>
+Tim kami siap membantu kapan pun Anda membutuhkan.
+</p>
+
+</div>
+
+<div class="card">
+
+<div class="icon">
+<i class="fa-solid fa-shield-halved"></i>
+</div>
+
+<h3>Pelayanan Terbaik</h3>
+
+<p>
+Dipercaya ratusan pelanggan dengan pelayanan yang ramah.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= ARMADA ================= -->
+
+<section class="armada" id="armada">
+
+<div class="container">
+
+<div class="section-title">
+
+<h2>Armada Kami</h2>
+
+<p>Pilih kendaraan terbaik sesuai kebutuhan perjalanan Anda.</p>
+
+</div>
+
+<div class="armada-grid">
+
+    <!-- ================= AVANZA OLD ================= -->
+
+<div class="mobil-card">
+
+    <img src="assets/img/avanza-old.png" alt="Avanza Old">
+
+    <div class="armada-info">
+
+        <h3>Avanza Old</h3>
+
+        <ul class="fitur">
+            <li>✔ 7 Penumpang</li>
+            <li>✔ AC Dingin</li>
+            <li>✔ Irit BBM</li>
+            <li>✔ Lepas Kunci</li>
+        </ul>
+
+        <div class="harga">
+            Harga
+            <span>Rp250.000 / 24Jam</span>
+        </div>
+
+        <a href="#"
+           class="btn-book"
+           onclick="bukaBooking('Avanza Old')">
+           Booking Sekarang
+        </a>
+
+    </div>
+
+</div>
+
+<!-- ================= AVANZA FC ================= -->
+
+<div class="mobil-card">
+
+<img src="assets/img/avanza-fc.png" alt="Avanza Facelift">
+
+<div class="armada-info">
+
+
+<h3>Avanza Facelift</h3>
+
+<ul class="fitur">
+<li>7 Penumpang</li>
+<li>AC Double Blower</li>
+<li>Lepas Kunci</li>
+</ul>
+
+<div class="harga">
+
+Harga
+
+<span>Rp275.000 / 24Jam</span>
+
+</div>
+
+<a href="#" class="btn-book" onclick="booking('Avanza Facelift')">
+Booking Sekarang
+</a>
+
+</div>
+
+</div>
+
+<!-- ================= AVANZA NEW ================= -->
+
+<div class="mobil-card">
+
+<img src="assets/img/avanza-new.png" alt="Avanza New">
+
+<div class="armada-info">
+
+
+<h3>Avanza New</h3>
+
+<ul class="fitur">
+<li>7 Penumpang</li>
+<li>AC Double Blower</li>
+<li>Lepas Kunci</li>
+</ul>
+
+<div class="harga">
+
+Harga
+
+<span>Rp350.000 / 24Jam</span>
+
+</div>
+
+<a href="#" class="btn-book" onclick="booking('Avanza New')">
+Booking Sekarang
+</a>
+
+</div>
+
+</div>
+
+<!-- ================= BRIO ================= -->
+
+<div class="mobil-card">
+
+<img src="assets/img/brio.png" alt="Honda Brio">
+
+<div class="armada-info">
+
+
+<h3>Honda Brio</h3>
+
+<ul class="fitur">
+<li>5 Penumpang</li>
+<li>AC Dingin</li>
+<li>Irit BBM</li>
+<li>Lepas Kunci</li>
+</ul>
+
+<div class="harga">
+
+Harga
+
+<span>Rp350.000 / 24Jam</span>
+
+</div>
+
+<a href="#" class="btn-book" onclick="booking('Honda Brio')">
+Booking Sekarang
+</a>
+
+</div>
+
+</div>
+
+<!-- ================= INNOVA ================= -->
+
+<div class="mobil-card">
+
+<img src="assets/img/innova.png" alt="Innova Reborn">
+
+<div class="armada-info">
+
+
+<h3>Innova Reborn</h3>
+
+<ul class="fitur">
+<li>7 Penumpang</li>
+<li>AC Double Blower</li>
+<li>Family Trip</li>
+<li>Lepas Kunci</li>
+</ul>
+
+<div class="harga">
+
+Harga
+
+<span>Rp450.000 / Hari</span>
+
+</div>
+
+<a href="#" class="btn-book" onclick="booking('Innova Reborn')">
+Booking Sekarang
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="airport" id="airport">
+
+<div class="container">
+
+    <div class="section-title">
+        <h2>Airport Transfer Lombok</h2>
+        <p>
+            Layanan penjemputan dan pengantaran Bandara Internasional Lombok
+            dengan armada bersih, driver profesional, dan harga transparan.
+        </p>
+    </div>
+
+    <div class="airport-grid">
+
+        <div class="airport-card">
+            <i class="fa-solid fa-plane-arrival"></i>
+            <h3>Bandara → Kuta Mandalika</h3>
+            <span>Rp200.000</span>
+            <a href="javascript:void(0)" onclick="bookingTransfer('Bandara - Kuta Mandalika')">Booking</a>
+        </div>
+
+        <div class="airport-card">
+            <i class="fa-solid fa-plane-arrival"></i>
+            <h3>Bandara → Mataram</h3>
+            <span>Rp200.000</span>
+            <a href="javascript:void(0)" onclick="bookingTransfer('Bandara - Mataram')">Booking</a>
+        </div>
+
+        <div class="airport-card">
+            <i class="fa-solid fa-plane-arrival"></i>
+            <h3>Bandara → Senggigi</h3>
+            <span>Rp300.000</span>
+            <a href="javascript:void(0)" onclick="bookingTransfer('Bandara - Senggigi')">Booking</a>
+        </div>
+
+        <div class="airport-card">
+            <i class="fa-solid fa-plane-arrival"></i>
+            <h3>Bandara → Bangsal</h3>
+            <span>Rp400.000</span>
+            <a href="javascript:void(0)" onclick="bookingTransfer('Bandara - Bangsal')">Booking</a>
+        </div>
+
+        <div class="airport-card">
+            <i class="fa-solid fa-plane-arrival"></i>
+            <h3>Bandara → Tetebatu</h3>
+            <span>Rp500.000</span>
+            <a href="javascript:void(0)" onclick="bookingTransfer('Bandara - Tetebatu')">Booking</a>
+        </div>
+
+        <div class="airport-card">
+            <i class="fa-solid fa-plane-arrival"></i>
+            <h3>Bandara → Sembalun</h3>
+            <span>Rp700.000</span>
+            <a href="javascript:void(0)" onclick="bookingTransfer('Bandara - Sembalun')">Booking</a>
+        </div>
+
+    </div>
+
+    <div class="airport-info">
+
+        <h3>Belum menemukan rute tujuan Anda?</h3>
+
+        <p>
+            Kami melayani seluruh wilayah Pulau Lombok. Hubungi kami untuk mendapatkan penawaran harga terbaik sesuai tujuan Anda.
+        </p>
+
+        <a href="https://wa.me/6281999582803?text=Halo%20PT.%20Yuu%20Transport%20Lombok,%20saya%20ingin%20bertanya%20tentang%20Airport%20Transfer."
+           target="_blank"
+           class="btn-airport">
+            Hubungi Kami
+        </a>
+
+    </div>
+
+</div>
+
+</section>
+
+<!-- ================= TENTANG ================= -->
+
+<<section class="about" id="about">
+
+<div class="container about-grid">
+
+    <div class="about-left">
+
+        <div class="legal-card">
+
+            <h3>Perusahaan Resmi Indonesia</h3>
+
+            <p>
+                PT. YUU TRANSPORT LOMBOK merupakan perusahaan yang telah memiliki
+                legalitas usaha dan terdaftar dalam sistem
+                Online Single Submission (OSS).
+            </p>
+
+            <div class="legal-item">
+                <span>Nama Perusahaan</span>
+                <strong>PT. YUU TRANSPORT LOMBOK</strong>
+            </div>
+
+            <div class="legal-item">
+                <span>Nomor Induk Berusaha (NIB)</span>
+                <strong>1707230091536</strong>
+            </div>
+
+            <div class="legal-item">
+                <span>Status Usaha</span>
+                <strong>PMDN • Usaha Mikro</strong>
+            </div>
+
+            <div class="legal-item">
+                <span>Bidang Usaha</span>
+                <strong>Rental Mobil • Airport Transfer • Tour & Travel</strong>
+            </div>
+
+            <div class="legal-preview">
+
+    <iframe
+        src="assets/dokumen/NIB YU TRANS.pdf"
+        width="100%"
+        height="420">
+    </iframe>
+
+</div>
+
+<a href="assets/dokumen/NIB YU TRANS.pdf"
+   target="_blank"
+   class="btn-legal">
+📄 Download / Lihat NIB
+</a>
+
+        </div>
+
+    </div>
+
+    <div class="about-right">
+
+        <h2>Tentang PT. Yuu Transport Lombok</h2>
+
+        <p>
+
+        PT. Yuu Transport Lombok merupakan perusahaan yang bergerak di bidang
+        penyewaan kendaraan, airport transfer, serta paket wisata di Pulau Lombok.
+
+        </p>
+
+        <p>
+
+        Kami berkomitmen memberikan pelayanan profesional,
+        armada yang bersih, harga yang transparan,
+        dan pengalaman perjalanan yang aman serta nyaman
+        bagi seluruh pelanggan.
+
+        </p>
+<div class="company-info">
+
+    <div class="info-item">
+        <i class="fa-solid fa-location-dot"></i>
+        <div>
+            <h4>Alamat Kantor</h4>
+            <p>
+                kekere timur, Semayan, Kec. Praya, Kabupaten Lombok Tengah, Nusa Tenggara Barat.
+            </p>
+        </div>
+    </div>
+
+    <div class="info-item">
+        <i class="fa-solid fa-phone"></i>
+        <div>
+            <h4>WhatsApp</h4>
+            <p>0819-9958-2803</p>
+        </div>
+    </div>
+
+    <div class="info-item">
+        <i class="fa-solid fa-envelope"></i>
+        <div>
+            <h4>Email</h4>
+            <p>yutransportlombok@gmail.com</p>
+        </div>
+    </div>
+
+</div>
+        <div class="about-check">
+
+            <div>✔ Rental Mobil Lepas Kunci</div>
+
+            <div>✔ Airport Transfer</div>
+
+            <div>✔ Paket Wisata Lombok</div>
+
+            <div>✔ Support WhatsApp 24 Jam</div>
+
+            <div>✔ Armada Bersih & Terawat</div>
+
+            <div>✔ Perusahaan Resmi OSS</div>
+
+        </div>
+
+    </div>
+
+</div>
+
+</section>
+
+<!-- ================= KONTAK ================= -->
+
+<section class="contact" id="contact">
+
+    <div class="container">
+
+        <div class="section-title">
+            <h2>Hubungi Kami</h2>
+
+            <p>
+                Kami siap membantu kebutuhan Rental Mobil,
+                Airport Transfer, dan Paket Wisata di Pulau Lombok.
+            </p>
+        </div>
+
+        <div class="contact-grid">
+
+            <!-- GOOGLE MAP -->
+            <div class="maps">
+
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12180.155132444494!2d116.28951699999999!3d-8.72389405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dcdb1a824fd0845%3A0x50c71b1098577b99!2sPT.%20Yuu%20Transport%20Lombok!5e1!3m2!1sid!2sid!4v1786116569040!5m2!1sid!2sid"
+        width="100%"
+        height="450"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="strict-origin-when-cross-origin">
+    </iframe>
+
+</div>
+
+            <!-- SOSIAL MEDIA -->
+            <div class="social-card">
+
+                <h3>Ikuti Kami</h3>
+
+                <a href="https://instagram.com/yutransportlombok" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                    @yutransportlombok
+                </a>
+
+                <a href="https://www.tiktok.com/@yu_transport_lombok" target="_blank">
+                    <i class="fa-brands fa-tiktok"></i>
+                    @yu_transport_lombok
+                </a>
+
+                <a href="https://www.youtube.com/" target="_blank">
+                    <i class="fa-brands fa-youtube"></i>
+                    Yu Transport Lombok
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- POPUP BOOKING -->
+
+<div id="bookingModal" class="modal">
+
+    <div class="modal-content">
+
+        <span class="close" onclick="tutupBooking()">&times;</span>
+
+        <h2>Booking Mobil</h2>
+
+        <input type="hidden" id="mobil">
+
+        <label>Nama Lengkap</label>
+        <input type="text" id="nama" placeholder="Masukkan nama">
+
+        <label>Nomor WhatsApp</label>
+        <input type="text" id="wa" placeholder="08xxxxxxxxxx">
+
+        <label>Tanggal Sewa</label>
+        <input type="date" id="tglSewa">
+
+        <label>Tanggal Kembali</label>
+        <input type="date" id="tglKembali">
+
+        <label>Lokasi Penjemputan</label>
+        <input type="text" id="lokasi" placeholder="Bandara Lombok">
+
+        <button onclick="kirimBooking()">
+            Booking via WhatsApp
+        </button>
+
+    </div>
+
+</div>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
