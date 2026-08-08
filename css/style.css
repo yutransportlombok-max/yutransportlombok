@@ -470,25 +470,29 @@ nav ul li a:hover{
 
 @media(max-width:992px){
 
-nav{
-    padding:0 25px;
-}
+    nav{
+        padding:0 25px;
+    }
 
-nav ul{
-    display:none;
-}
+    nav ul{
+        display:none;
+    }
 
-.hero-content h1{
-    font-size:46px;
-}
+    .hero-content h1{
+        font-size:42px;
+    }
 
-.hero-content p{
-    font-size:18px;
-}
+    .hero-content h1 span{
+        font-size:28px;
+    }
 
-.hero-btn{
-    flex-direction:column;
-}
+    .hero-content p{
+        font-size:16px;
+    }
+
+    .hero-btn{
+        flex-direction:row;
+    }
 
 .section-title h2,
 .why h2{
