@@ -133,7 +133,17 @@ nav ul li a:hover{
     margin-top:40px;
     display:flex;
     justify-content:center;
+    align-items:center;
     gap:20px;
+}
+
+.hero-btn a{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    width:auto;
+    height:auto;
+    min-height:0;
 }
 
 .btn-book{
