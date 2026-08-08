@@ -145,14 +145,14 @@ nav ul li a:hover{
 }
 
 .hero-content p{
-    margin:25px auto 0;
+    margin:22px auto 0;
     color:#e5e5e5;
-    font-size:19px;
+    font-size:17px;
     line-height:1.6;
 }
 
 .hero-btn{
-    margin-top:35px;
+    margin-top:30px;
     display:flex;
     justify-content:center;
     align-items:center;
