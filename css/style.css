@@ -840,3 +840,114 @@ nav ul li a:hover{
     font-size:17px;
     line-height:1.8;
 }
+
+/* =========================================
+   PAKET WISATA LOMBOK
+   ========================================= */
+
+.tour-section {
+    padding: 80px 20px;
+    background: #111;
+    color: #fff;
+}
+
+.tour-section .section-title {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 45px;
+}
+
+.tour-section .section-title h2 {
+    font-size: 42px;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.tour-section .section-title p {
+    font-size: 18px;
+    line-height: 1.7;
+    color: #ccc;
+}
+
+.tour-grid {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+.tour-card {
+    background: #1b1b1b;
+    border: 1px solid rgba(255, 193, 7, 0.25);
+    border-radius: 18px;
+    padding: 30px;
+    transition: 0.3s ease;
+}
+
+.tour-card:hover {
+    transform: translateY(-5px);
+    border-color: #f5c400;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+}
+
+.tour-card h3 {
+    font-size: 25px;
+    color: #f5c400;
+    margin-bottom: 15px;
+}
+
+.tour-card p {
+    color: #ddd;
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+.tour-card .btn-tour {
+    display: inline-block;
+    padding: 11px 22px;
+    background: #f5c400;
+    color: #111;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 700;
+    transition: 0.3s ease;
+}
+
+.tour-card .btn-tour:hover {
+    background: #fff;
+    color: #111;
+}
+
+
+/* =========================================
+   RESPONSIVE PAKET WISATA
+   ========================================= */
+
+@media (max-width: 768px) {
+
+    .tour-section {
+        padding: 60px 15px;
+    }
+
+    .tour-section .section-title h2 {
+        font-size: 32px;
+    }
+
+    .tour-section .section-title p {
+        font-size: 16px;
+    }
+
+    .tour-grid {
+        grid-template-columns: 1fr;
+        gap: 18px;
+    }
+
+    .tour-card {
+        padding: 24px;
+    }
+
+    .tour-card h3 {
+        font-size: 22px;
+    }
+}
