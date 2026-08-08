@@ -791,3 +791,27 @@ nav ul{
     }
 
 }
+
+/* ===========================
+   SEO TEXT
+=========================== */
+
+.seo-text{
+    background:#0f0f0f;
+    padding:70px 8%;
+    text-align:center;
+}
+
+.seo-text h2{
+    color:#fff;
+    font-size:38px;
+    margin-bottom:20px;
+}
+
+.seo-text p{
+    max-width:900px;
+    margin:0 auto 15px;
+    color:#bbb;
+    font-size:17px;
+    line-height:1.8;
+}
